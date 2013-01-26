@@ -1,0 +1,49 @@
+html, body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-inverse .brand {
+	font-weight: bold;
+	color: #666666;
+}
+
+.category_item {
+	color: #777777;
+}
+
+.image_item {
+	overflow: hidden;
+	border: 1px solid rgba(153, 153, 153, 0.5);
+	box-shadow: 0 1px 3px rgba(153, 153, 153, 0.5);
+	margin-bottom: 20px;
+}
+
+.image_item img {
+	max-with: 4000px;
+}
+
+.imgRedesign {
+	cursor: pointer;
+}
+
+.image_full {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	padding: 5px;
+	max-width: 100%;
+	border: 1px solid rgba(153, 153, 153, 0.5);
+	box-shadow: 0 1px 3px rgba(153, 153, 153, 0.5);
+}
+
+.image_full img {
+	width: 100%
+}
+
+.back_button, .edit_button {
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
